@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #f3f1ec;
+  color: #1e2a38;
+}
+
+* {
+  border-color: #dfdad0;
+}
+
+/* Tabular figures everywhere times/durations appear, so columns of times align. */
+.tabular-time {
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background-color: #eadfcb;
+}
+
+/* Visible keyboard focus ring, kept consistent with the brass accent. */
+:focus-visible {
+  outline: 2px solid #b4793a;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
