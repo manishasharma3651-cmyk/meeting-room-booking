@@ -75,8 +75,8 @@ export default function HomePage() {
             )}
           </div>
           <p className="mt-3 px-2 text-xs text-ink-soft">
-            Tip: click an empty spot on a room's row to start a booking there, or click an existing
-            booking to cancel it.
+            Tip: click an empty spot on a room&apos;s row to start a booking there, or click an existing
+
           </p>
         </div>
       </main>
