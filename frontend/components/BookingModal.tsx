@@ -228,10 +228,10 @@ export function BookingModal({
               {errors.time && <p className="-mt-2 text-xs text-rust">{errors.time}</p>}
 
               <div className="rounded-sm border border-dashed border-line bg-paper/60 p-3">
-                <p className="mb-2 flex items-center gap-1.5 text-xs font-medium text-ink-soft">
-                  <CalendarClock className="h-3.5 w-3.5" />
-                  Not sure when it's free?
-                </p>
+               <p className="mb-2 flex items-center gap-1.5 text-xs font-medium text-ink-soft">
+  <CalendarClock className="h-3.5 w-3.5" />
+  Not sure when it&apos;s free?
+</p>
                 <div className="flex items-center gap-2">
                   <input
                     type="number"
