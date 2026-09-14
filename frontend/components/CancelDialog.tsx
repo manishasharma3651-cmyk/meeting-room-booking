@@ -58,12 +58,12 @@ export function CancelDialog({ booking, onClose, onCancelled }: Props) {
             </div>
             <h2 className="font-display text-lg font-medium text-ink">Cancel this booking?</h2>
             <p className="mt-1 text-sm text-ink-soft">
-              <span className="font-medium text-ink">{booking.title}</span> in {booking.roomName},{" "}
-              <span className="tabular-time">
-                {displayTime(booking.start_time)}–{displayTime(booking.end_time)}
-              </span>
-              . This can't be undone.
-            </p>
+  <span className="font-medium text-ink">{booking.title}</span> in {booking.roomName},{" "}
+  <span className="tabular-time">
+    {displayTime(booking.start_time)}–{displayTime(booking.end_time)}
+  </span>
+  . This can&apos;t be undone.
+</p>
             <div className="mt-5 flex justify-end gap-2">
               <button
                 onClick={onClose}
