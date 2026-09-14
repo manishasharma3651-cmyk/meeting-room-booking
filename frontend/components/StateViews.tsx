@@ -21,7 +21,7 @@ export function EmptyRooms() {
       <CalendarSearch className="h-8 w-8 text-ink-soft/50" />
       <p className="font-display text-lg text-ink">No rooms match this filter</p>
       <p className="max-w-xs text-sm text-ink-soft">
-        Choose "All rooms" from the sidebar, or pick a different room to see its schedule.
+        Choose &quot;All rooms&quot; from the sidebar, or pick a different room to see its schedule.
       </p>
     </div>
   );
@@ -31,7 +31,7 @@ export function LoadFailed({ message, onRetry }: { message: string; onRetry: () 
   return (
     <div className="flex flex-col items-center justify-center gap-3 px-6 py-20 text-center">
       <WifiOff className="h-8 w-8 text-rust/60" />
-      <p className="font-display text-lg text-ink">Couldn't load the schedule</p>
+      <p className="font-display text-lg text-ink">Couldn&apos;t load the schedule</p>
       <p className="max-w-xs text-sm text-ink-soft">{message}</p>
       <button
         onClick={onRetry}
